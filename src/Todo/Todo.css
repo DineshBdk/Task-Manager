@@ -1,0 +1,117 @@
+
+
+.container{
+    background-color:transparent;
+    width: 500px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0 ,0.2);
+    }
+h1{
+    margin-bottom:20px;
+    margin-top: 10px;
+}
+
+.inpadd{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+.inpadd input {
+    padding: 15px;
+    width:90%;
+    border-radius: 10px;
+    border: none;
+    font-size: 1.2rem;
+}
+
+.inpadd button{
+    padding: 10px 15px;
+    margin-top: 7px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(32, 137, 8);
+    font-weight: 550;
+    font-size: 15px;
+    color: white;
+    cursor: pointer;
+}
+.listandBut{
+    margin-top: 10px;
+    height: 22rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 90%;
+    overflow-y: auto;
+}
+
+.listandBut::-webkit-scrollbar{
+    display: none;
+}
+
+ul{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   width: 100%;
+}
+
+ul li{  
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size: 1.8rem;
+   color: white;
+   font-weight:500;
+   background-color: rgba(67, 66, 66, 0.737);
+   margin-bottom: 10px;
+   border-radius: 5px ;
+   width: 100%;
+   padding: 10px;
+}
+.text{
+    width: 20rem;
+    word-wrap:break-word;
+}
+.delbtn , .upbtn , .downbtn{
+    font-size: 1.4rem;
+    border: none;
+    background: none;
+    padding-right: 15px;
+    cursor: pointer;
+    color: white;
+}
+.delbtn:hover{
+    color:rgba(255, 0, 0, 0.881);
+}
+.downbtn:hover{
+    color:rgba(255, 0, 0, 0.829);
+}
+.upbtn:hover{
+    color:rgba(9, 236, 24, 0.829);
+}
+ul li:hover{
+    background-color: grey;
+}
+.inpadd button:hover{
+    background-color: green;
+    color: rgba(255, 255, 255, 0.785);
+}
+
+.inpadd input:hover{
+    border-radius: 0%;
+    border: 1px solid;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.852);
+}
+
+
+
