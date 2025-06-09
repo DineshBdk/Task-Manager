@@ -78,7 +78,7 @@ const Todo = () => {
           </li>)}
       </ul>
     </div>
-  </div>
+</div>
   )
 };
 export default Todo;
