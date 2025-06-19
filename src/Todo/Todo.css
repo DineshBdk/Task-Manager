@@ -188,37 +188,3 @@ input[type="checkbox"] {
   background-color: rgb(136, 117, 91);
 }
 
-@media screen and (max-width: 600px) {
-  .container {
-    width: 95%;
-    height: auto;
-  }
-
-  .inp-add input,
-  .inp-add button {
-    width: 100%;
-    font-size: 1rem;
-  }
-
-  ul li {
-    flex-direction: column;
-    align-items: flex-start;
-    font-size: 1rem;
-    padding: 8px;
-  }
-
-  .icons {
-    margin-top: 8px;
-    gap: 10px;
-  }
-
-  .filter-buttons {
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-
-  .filter-buttons button {
-    flex: 1 1 30%;
-  }
-}
-
